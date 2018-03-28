@@ -241,7 +241,7 @@ In order to use the BasicMathLib library, import it into your contract and then 
 ```
 pragma solidity ^0.4.19;
 
-import "./BasicMathLib.sol";
+import "example-libraries-basic-math/contracts/BasicMathLib.sol";
 
 contract YourContract {
   using BasicMathLib for uint256;
@@ -276,7 +276,7 @@ that value until checks pass. Consider the following code:
 ```
 pragma solidity ^0.4.19;
 
-import "./BasicMathLib.sol";
+import "example-libraries-basic-math/contracts/BasicMathLib.sol";
 
 contract YourContract {
   using BasicMathLib for uint256;
