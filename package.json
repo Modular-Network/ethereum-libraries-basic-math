@@ -1,15 +1,19 @@
 {
   "name": "ethereum-libraries-basic-math",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Basic math operations on Ethereum with overflow protection",
-  "keywords": ["ethereum", "math", "modular"],
+  "keywords": [
+    "ethereum",
+    "math",
+    "modular"
+  ],
   "homepage": "https://github.com/Modular-Network/ethereum-libraries",
   "bugs": "https://github.com/Modular-Network/ethereum-libraries/issues",
   "license": "MIT",
   "author": {
-    "name" : "Modular Inc",
-    "email" : "contact@modular.network",
-    "url" : "https://modular.network"
+    "name": "Modular Inc",
+    "email": "contact@modular.network",
+    "url": "https://modular.network"
   },
   "scripts": {
     "test": "bash run_test.sh",
@@ -18,6 +22,6 @@
   "devDependencies": {
     "ganache-cli": "6.1.0",
     "solidity-coverage": "0.4.14",
-    "truffle": "4.1.3"
+    "truffle": "4.1.5"
   }
 }
