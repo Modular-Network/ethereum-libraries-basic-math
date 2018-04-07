@@ -276,7 +276,7 @@ that value until checks pass. Consider the following code:
 ```
 pragma solidity ^0.4.19;
 
-import "example-libraries-basic-math/contracts/BasicMathLib.sol";
+import "ethereum-libraries-basic-math/contracts/BasicMathLib.sol";
 
 contract YourContract {
   using BasicMathLib for uint256;
