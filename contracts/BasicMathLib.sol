@@ -4,7 +4,7 @@ pragma solidity 0.4.21;
  * @title Basic Math Library
  * @author Modular, Inc
  *
- * version 1.2.2
+ * version 1.2.5
  * Copyright (c) 2017 Modular, Inc
  * The MIT License (MIT)
  * https://github.com/Modular-Network/ethereum-libraries/blob/master/LICENSE

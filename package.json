@@ -1,6 +1,6 @@
 {
   "name": "ethereum-libraries-basic-math",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Basic math operations on Ethereum with overflow protection",
   "keywords": [
     "ethereum",

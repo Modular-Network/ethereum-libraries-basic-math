@@ -238,8 +238,8 @@ In order to use the BasicMathLib library, import it into your contract and then 
 
 ### Usage Example
 
-```
-pragma solidity ^0.4.19;
+```js
+pragma solidity ^0.4.21;
 
 import "example-libraries-basic-math/contracts/BasicMathLib.sol";
 
@@ -273,8 +273,8 @@ zero, the function will return 0 as the result. If you operate on a variable
 but wish to preserve the value, you need to use a temporary variable to hold
 that value until checks pass. Consider the following code:
 
-```
-pragma solidity ^0.4.19;
+```js
+pragma solidity ^0.4.21;
 
 import "ethereum-libraries-basic-math/contracts/BasicMathLib.sol";
 
