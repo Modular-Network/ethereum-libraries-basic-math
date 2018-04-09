@@ -85,6 +85,7 @@ module.exports = function(deployer) {
   deployer.deploy(YourOtherContract);
 };
 ```
+**Note**: If you have not created a second deployment .js file in the `migrations/` directory, this needs to be done first. You cannot use the 1_initial_migration.js file for your migrations.
 
 **Note**: The `.link()` function should be called *before* you `.deploy(YourOtherContract)`. Also, be sure to include the `{overwrite: false}` when writing the deployer i.e. `.deploy(BasicMathLib, {overwrite: false})`. This prevents deploying the library onto the main network or Rinkeby test network at your cost and uses the library already on the blockchain. The function should still be called however because it allows you to use it in your development environment. *See below*
 
